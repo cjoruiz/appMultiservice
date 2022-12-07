@@ -11,8 +11,7 @@ void procesarMnuPrincipal(){
 			iterarMenuGraficas();
 		break;
 	case 3:
-		//iterarMenuArreglos();
-		escribir("menu arreglos pendiente");
+		iterarMenuArreglos();
 		break;
 	case 4:
 		iterarMenuMatrices();

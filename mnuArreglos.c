@@ -4,19 +4,19 @@ void procesarMnuArreglos(){
 	switch (glbOpcion)
 	{
 	case 1:
-		//ordenarBurbuja();
+		BubbleSort();
 		break;
 	case 2:
-		//ordenarCocktail();
+		cockTailSort();
 		break;
 	case 3:
-		//ordenarInsercion();
+		insertionSort();
 		break;
 	case 4:
-		//ordenarMerge();
+		mergeSort();
 		break;
 	case 5:
-		//ordenarQuickSort();
+		quickSort();
 		break;
 	case 6:
 		escribir("ha salido de ordenamiento de arreglos");

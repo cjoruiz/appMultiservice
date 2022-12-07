@@ -5,6 +5,7 @@
 #include "mnuGraficas.h"
 #include "mnuSeries.h"
 #include "mnumatrices.h"
+#include "mnuArreglos.h"
 //#include "mnuGraficas.h"
 void procesarMnuPrincipal();
 void configurarMenuPrincipal();
