@@ -10,7 +10,7 @@ void procesarMnuMatrices(){
 		multiplicarMatrices();
 		break;
 	case 3:
-		escribirEncabezado("Ha salido de operaciones con matrices");
+		escribirEncabezado("Ha salido de menu operaciones con matrices");
 		saltarLinea();
 		break;
 	default:
@@ -21,9 +21,9 @@ void procesarMnuMatrices(){
 		glbOpcSalir=3;
 		glbNumItems=5;
 		dimensionarItems();
-		glbItemsMenu[0]="operaciones con matrices";
-		glbItemsMenu[1]="suma";
-		glbItemsMenu[2]="multiplicacion";
+		glbItemsMenu[0]="*** OPERACIONES CON MATRICES **";
+		glbItemsMenu[1]="Suma";
+		glbItemsMenu[2]="Multiplicacion";
 		glbItemsMenu[3]="Salir";
 		glbItemsMenu[4]="ingrese una opcion:  ";
 	}

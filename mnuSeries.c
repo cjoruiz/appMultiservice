@@ -16,7 +16,7 @@ void procesarMnuSeries(){
 		escribirImPares();
 		break;
 	case 5:
-		escribirEncabezado("Ha salido menu series");
+		escribirEncabezado("Ha salido de menu series");
 		saltarLinea();
 		break;
 	default:
@@ -27,12 +27,12 @@ void procesarMnuSeries(){
 		glbOpcSalir=5;
 		glbNumItems=7;
 		dimensionarItems();
-		glbItemsMenu[0]="series";
-		glbItemsMenu[1]="fibonacci";
-		glbItemsMenu[2]="primos";
-		glbItemsMenu[3]="pares";
-		glbItemsMenu[4]="impares";
-		glbItemsMenu[5]="salir";
+		glbItemsMenu[0]="** MENU SERIES ***";
+		glbItemsMenu[1]="Fibonacci";
+		glbItemsMenu[2]="Primos";
+		glbItemsMenu[3]="Pares";
+		glbItemsMenu[4]="Impares";
+		glbItemsMenu[5]="Salir";
 		glbItemsMenu[6]="ingrese una opcion:  ";
 	}
 		void iterarMenuSeries(){

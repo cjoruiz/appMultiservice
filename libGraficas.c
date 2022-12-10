@@ -1,7 +1,7 @@
 #include "libGraficas.h"
 
 void dibujarCuadrado(){
-	int varFilas=leerNumeroCon("ingresa el numero de filas para el cuadrado");
+	int varFilas=leerNumeroCon("ingresa el numero de filas para el cuadrado:  ");
 	for(int i=0;i<varFilas;i++){
 		for(int j=0;j<varFilas;j++){
 			escribir("* ");
@@ -11,7 +11,7 @@ void dibujarCuadrado(){
 }
 
 void dibujarRectangulo(){
-	int varFilas=leerNumeroCon("ingresa el numero de filas para el rectangulo: ");
+	int varFilas=leerNumeroCon("ingresa el numero de filas para el rectangulo:  ");
 	for(int i=0;i<varFilas;i++){
 		for(int j=0;j<varFilas*2;j++){
 			escribir("* ");
@@ -21,7 +21,7 @@ void dibujarRectangulo(){
 }
 
 void dibujarTriangulo(){
-	int varFilas=leerNumeroCon("ingresa el numero de filas para el triangulo: ");
+	int varFilas=leerNumeroCon("ingresa el numero de filas para el triangulo:  ");
 	for(int i=0;i<varFilas;i++){
 		for(int j=0;j<varFilas-i;j++){
 			escribir(" ");

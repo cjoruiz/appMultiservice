@@ -5,15 +5,16 @@ void escribirArreglo(int arr[]){
 		escribirNumeroEntero(a[i]);
 		escribir("  ");
 	}
+	saltarLinea();
 }
 void leerArreglo()
 {
-	n = leerNumeroCon("Introduce el numero de elementos:");
+	n = leerNumeroCon("Introduce el numero de elementos:  ");
 	escribir("Introduce los elementos: ");
 	saltarLinea();
 
 	for (i = 0; i < n; i++)
-		a[i] = leerNumeroEnteroCon("ingrese un numero");
+		a[i] = leerNumeroEnteroCon("ingrese un numero:  ");
 }
 void merge(int a[], int i1, int j1, int i2, int j2)
 {
@@ -56,7 +57,7 @@ void mergeSort()
 {
 	leerArreglo();
 	ordenarMergesort(a, 0, n - 1);
-	escribirEncabezado("La lista ordenada con merge Sort es:  ");
+	escribirEncabezado("lista ordenada con merge Sort es:  ");
 	escribirArreglo(a);
 }
 void ordenarBubbleSort(int list[], int n)
@@ -80,7 +81,7 @@ void BubbleSort()
 {
 	leerArreglo();
 	ordenarBubbleSort(a, n);
-	escribirEncabezado("Ordenar la lista metodo ordenarBubbleSort en orden ascendente:\n");
+	escribirEncabezado("lista ordenada con BubbleSort en orden ascendente:\n");
 	escribirArreglo(a);
 }
 
@@ -107,7 +108,7 @@ void insertionSort()
 {
 	leerArreglo();
 	insertion_sort(a, n);
-	escribirEncabezado("Ordenar la lista metodo ordenar insertion Sort en orden ascendente:\n");
+	escribirEncabezado("lista ordenada con insertion Sort en orden ascendente:\n");
 	escribirArreglo(a);
 }
 void ordenarCockTailSort(int* arr,int MAX)
@@ -142,7 +143,7 @@ void ordenarCockTailSort(int* arr,int MAX)
 void cockTailSort(){
 	leerArreglo();
 	ordenarCockTailSort(a,n);
-	escribirEncabezado("Ordenar la lista metodo cocktail Sort en orden ascendente:\n");
+	escribirEncabezado("lista ordenada con cocktail Sort en orden ascendente:\n");
 	escribirArreglo(a);
 }
 void ordenarQuickSort(int f, int l)
@@ -180,6 +181,6 @@ void quickSort()
 {
 	leerArreglo();
 	ordenarQuickSort(0, n - 1);
-	escribirEncabezado("Ordenar la lista metodo quick Sort en orden ascendente:\n");
+	escribirEncabezado("lista ordenada con quick Sort en orden ascendente:\n");
 	escribirArreglo(a);
 }

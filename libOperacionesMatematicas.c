@@ -8,7 +8,7 @@ void sumar(){
 }
 void restar(){
 		escribirEncabezado("OPERACION DE RESTA ENTRE DOS OPERANDOS");
-		escribirNumeroCon("el resultado de la resta es: ", leerNumeroCon("introduce un valor para el minuendo-1:  ") - leerNumeroCon("introduce un valor para el minuendo-2:  "));
+		escribirNumeroCon("el resultado de la resta es: ", leerNumeroCon("introduce un valor para el minuendo:  ") - leerNumeroCon("introduce un valor para el sustraendo:  "));
 	}
 void multiplicar(){
 	escribirEncabezado("OPERACION DE PRODUCTO ENTRE DOS OPERANDOS");
@@ -16,8 +16,8 @@ void multiplicar(){
 }
 void dividir(){
 	escribirEncabezado("OPERACION DE DIVISION ENTRE DOS OPERANDOS");
-	float varOperando1 = leerNumeroCon("introduce un valor para el dividiendo-1:  ");
-	float varOperando2 = leerNumeroCon("introduce un valor para el divisor-2:  ");
+	float varOperando1 = leerNumeroCon("introduce un valor para el dividiendo:  ");
+	float varOperando2 = leerNumeroCon("introduce un valor para el divisor:  ");
 	if (varOperando2 != 0){
 		escribirNumeroCon("el resultado de la division es: ", varOperando1 / varOperando2);
 	}else

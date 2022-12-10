@@ -19,8 +19,7 @@ void procesarMnuArreglos(){
 		quickSort();
 		break;
 	case 6:
-		escribir("ha salido de ordenamiento de arreglos");
-		saltarLinea();
+		escribirEncabezado("Ha salido de menu ordenamiento de arreglos");
 		break;
 	default:
 		escribirEncabezado("El valor de la opcion indicada no existe...");

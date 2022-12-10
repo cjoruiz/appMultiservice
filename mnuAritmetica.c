@@ -16,8 +16,7 @@
 			dividir();
 			break;
 		case 5:
-			escribir("ha salido de utilidades aritmeticas");
-			saltarLinea();
+			escribirEncabezado("Ha salido de menu utilidades aritmeticas");
 			break;
 		default:
 			escribirEncabezado("El valor de la opcion indicada no existe...");
@@ -27,7 +26,7 @@
 			glbOpcSalir=5;
 			glbNumItems=7;
 			dimensionarItems();
-			glbItemsMenu[0]="**** MENU ARITMETICA ***";
+			glbItemsMenu[0]="*** MENU ARITMETICA ***";
 			glbItemsMenu[1]="Operacion Suma";
 			glbItemsMenu[2]="Operacion Resta";
 			glbItemsMenu[3]="Operacion Producto";

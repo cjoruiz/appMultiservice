@@ -4,6 +4,7 @@
 #include "libEntradaSalida.h"
 //variables aritmeticas
 int glbOpcSalir;
+int glbOpcSalirP;
 int glbOpcion;
 int glbNumItems;
 char** glbItemsMenu;

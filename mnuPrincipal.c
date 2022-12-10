@@ -31,11 +31,11 @@ void procesarMnuPrincipal(){
 		glbNumItems=8;
 		dimensionarItems();
 		glbItemsMenu[0]="**** MENU PRINCIPAL ***";
-		glbItemsMenu[1]="utilidades Aritmeticas";
-		glbItemsMenu[2]="utilidades Graficas";
-		glbItemsMenu[3]="ordenamiento de arreglos";
-		glbItemsMenu[4]="operaciones con matrices";
-		glbItemsMenu[5]="series";
+		glbItemsMenu[1]="Utilidades Aritmeticas";
+		glbItemsMenu[2]="Utilidades Graficas";
+		glbItemsMenu[3]="Ordenamiento de arreglos";
+		glbItemsMenu[4]="Operaciones con matrices";
+		glbItemsMenu[5]="Series";
 		glbItemsMenu[6]="Salir";
 		glbItemsMenu[7]="ingrese una opcion:  ";
 	}

@@ -24,10 +24,10 @@ void procesarMnuGraficas(){
 		glbOpcSalir=4;
 		glbNumItems=6;
 		dimensionarItems();
-		glbItemsMenu[0]="utilidades graficas";
-		glbItemsMenu[1]="dibujar Cuadrado";
+		glbItemsMenu[0]="*** UTILIDADES GRAFICAS ***";
+		glbItemsMenu[1]="Dibujar Cuadrado";
 		glbItemsMenu[2]="Dibujar Rectangulo";
-		glbItemsMenu[3]="dibujar Triangulo";
+		glbItemsMenu[3]="Dibujar Triangulo";
 		glbItemsMenu[4]="Salir";
 		glbItemsMenu[5]="ingrese una opcion:  ";
 	}
